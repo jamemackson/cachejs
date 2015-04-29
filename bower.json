@@ -2,10 +2,14 @@
   "name": "cachejs",
   "version": "0.0.1",
   "authors": [
-    "jame <jame.mackson@gmail.com>"
+    "jame mackson <jame.mackson@gmail.com>"
   ],
   "description": "a port of code.google.com/p/cachejs",
-  "main": "cache.js",
+  "main": [
+    "cache.js",
+    "json.js",
+    "stores.js"
+  ],
   "keywords": [
     "cachejs"
   ],
