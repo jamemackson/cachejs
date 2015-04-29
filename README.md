@@ -2,6 +2,10 @@
 
 forked from code.google.com/p/cachejs
 
+Cachejs allows you to cache, with expiries, all kinds of data.
+
+It depends upon no external libraries. 
+
 ## example usage
 
 ```html
@@ -35,3 +39,11 @@ forked from code.google.com/p/cachejs
 </body>
 </html>
 ```
+
+
+
+You don’t need to worry about serialising values; the cache internally json encodes the value if needed when setting, and parses it again before returning it back to you, keeping the interface nice and clean, and allowing you to store any kind of data – raw JSON, XML, variables, objects, strings, etc.
+
+What’s more, it’s designed to be future-proof, with pluggable storage modules allowing you to extend the caching object to use any kind of storage system. The cache API abstracts the storage API away so you can swap stores without changing your caching code at all; you just change the setStore line and the rest of the code will still work just fine.
+
+We’ve written an arrayStore which caches data for the current page only, a cookieStore which works for the whole domain but has the usual cookie limits, and a localstorageStore which uses the funky HTML5 Web Storage specification (AFAIK supported by IE8, FF3.5, Safari4, Chrome4, Opera10).
