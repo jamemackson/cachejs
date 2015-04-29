@@ -1,5 +1,5 @@
 {
-  "name": "cachejs",
+  "name": "js-client-side-cache",
   "version": "0.0.1",
   "authors": [
     "jame mackson <jame.mackson@gmail.com>"
@@ -11,7 +11,8 @@
     "stores.js"
   ],
   "keywords": [
-    "cachejs"
+    "cachejs",
+    "js-client-side-cache"
   ],
   "license": "MIT",
   "homepage": "https://github.com/jamemackson/cachejs",
