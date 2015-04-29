@@ -1,0 +1,21 @@
+{
+  "name": "cachejs",
+  "version": "0.0.1",
+  "authors": [
+    "jame <jame.mackson@gmail.com>"
+  ],
+  "description": "a port of code.google.com/p/cachejs",
+  "main": "cache.js",
+  "keywords": [
+    "cachejs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jamemackson/cachejs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
